@@ -190,7 +190,7 @@ body {
   border-radius: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   body {
     font-size: 14px;
   }
@@ -287,6 +287,8 @@ body {
   }
 
   .orange-button {
+    display: inline-block;
+
     padding: 10px 20px;
     font-size: 14px;
   }
@@ -299,28 +301,37 @@ body {
     margin-right: auto;
   }
   .big-image {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: black;
+    color: white;
   }
   .header {
-    background-color: #1f1f1f;
+    background-color: black;
+  }
+  .header-link {
+    color: white;
   }
   .hero {
-    background-color: #1f1f1f;
+    background-color: black;
   }
   .footer {
-    background-color: #1f1f1f;
+    background-color: black;
   }
   .orange-button {
     background-color: #ff5722;
   }
   .cta {
-    background-color: #1f1f1f;
+    background-color: black;
+  }
+  .footer-link {
+    color: white;
+  }
+  .footer-bottom {
+    margin-left: 150px;
   }
 }
